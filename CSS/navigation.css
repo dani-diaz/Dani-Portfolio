@@ -27,8 +27,8 @@ menu hr{
     position: relative;
     height: 2px;
     width: 35px;
-    background-color: #36FBB1;
-    border-color: #36FBB1;
+    background-color: hotpink;
+    border-color: hotpink;
     transform-origin: left;
     margin: 0;
 }
@@ -146,7 +146,7 @@ ul a{
     transition: 0.1s all;
 }
 ul a:hover{
-    color: #36FBB1;
+    color: hotpink;
 }
 ul li{
     list-style: none;
