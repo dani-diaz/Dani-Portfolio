@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/skills.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/contactIcon.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,7 +100,7 @@
             </div>
             <a href="mailto:danidiaz.css@gmail.com"><button>Let's Talk</button></a>
             <div class="img" data-aos="fade-left">
-                <img src="./images/DaniNB.jpg" alt="Picture of Dani Diaz">
+                <img src="./images/DaniPic.png" alt="Picture of Dani Diaz">
             </div>
         </div>
     </div>
@@ -152,6 +155,47 @@
             </div>
         </div>
     </div>
+    <div class="contact part" id="Contact">
+        <div class="title">
+            <h1>Contact</h1>
+            <hr>
+        </div>
+        <div class="wrap">
+            <h3 data-aos="zoom-in">My inbox and social medias are always open. Whether you have a question or just want to say hello, I
+                will try my best to get back to you! Feel free to contact me about any relevant opportunity or just a
+                simple talk.</h3>
+            <a href="mailto:danidiaz.css@gmail.com"><button>Mail Me</button></a>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/danidiaz8/" target="_blank"><img
+                        src="icons/linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://github.com/dani-diaz" target="_blank"><img src="icons/github.svg" alt="GitHub"></a>
+                <a href="https://twitter.com/DanidiazCss" target="_blank"><img src="icons/twitter.svg"
+                        alt="Twitter"></a>
+            </div>
+        </div>
+        <footer>
+            <span class="footer" data-wait="500"
+                data-words='["I love to code.","Creating better version of myself!!","Searching for opportunities.","Learning..."]'></span>
+        </footer>
+    </div>
+
+    <script src="./JS/nav.js"></script>
+    <script src="./JS/menu.js"></script>
+    <script src="./JS/contactButton.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 150,
+          duration: 800
+      });
+      if(window.innerWidth <= 768){
+          document.querySelector(".interest").removeAttribute("data-aos-anchor");
+          document.querySelector(".healerText").setAttribute("data-aos-anchor",".healerImg")
+          document.querySelector(".colorGuessText").setAttribute("data-aos-anchor",".colorGuessImg")
+          
+        }
+    </script>
     
     
 </body>

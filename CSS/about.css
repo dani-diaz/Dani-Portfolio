@@ -47,8 +47,7 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
-    background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1);
-    filter: blur(0.5px) grayscale(0.8);
+    background: linear-gradient(to right, hotpink, hotpink, hotpink, hotpink);
     transition: 0.5s all linear;
 }
 .img img{
