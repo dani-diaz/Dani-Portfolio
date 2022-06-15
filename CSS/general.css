@@ -78,14 +78,21 @@ section hr{
 }
 
 .socials img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     transition: 0.5s linear;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .left img{
-    padding: 30% 0;
+    padding: 80% 0;
 }
 .socials a:hover img{
     transform: rotate(360deg);
+}
+
+.title h1{
+    display: inline-block;
+    font-size: 5rem;
+    color: white;
+    margin: 0%;
 }

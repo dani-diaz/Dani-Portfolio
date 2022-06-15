@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url(../icons/twitter.svg);
+    content: url(../icons/twitter.png);
     transform: rotate(-10deg);
     background-color: #061320;
     box-shadow: 0px 0px 15px black;
@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url(../icons/github.svg);
+    content: url(../icons/github.png);
     transform: rotate(-70deg);
     background-color: #061320;
     box-shadow: 0px 0px 15px black;
@@ -95,7 +95,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    content: url(../icons/linkedin.svg);
+    content: url(../icons/linkedin.png);
     transform: rotate(-100deg);
     background-color: #061320;
     box-shadow: 0px 0px 15px black;
