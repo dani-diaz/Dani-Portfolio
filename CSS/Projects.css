@@ -1,15 +1,15 @@
-.skills .wrap{
+.projects .wrap{
     display: grid;
     grid-template-areas: 'text iteams'
-                         'interest iteams';
+                         'socials-list iteams';
     align-items: center;
     padding: 0px 50px;
 }
-.skills hr{
+.projects hr{
     margin: 0;
     width: 80%;
 }
-.skills .wrap > p{
+.projects .wrap > p{
     grid-area: text;
     width: 75%;
     text-align: center;
@@ -17,14 +17,14 @@
     font-size: 1.4rem;
     margin: 0 auto;
 }
-.interest{
+.socials-list{
     grid-area: interest;
     width: 75%;
     min-height: 17vh;
     padding: 20px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background: white;
@@ -33,13 +33,13 @@
     color: hotpink;
     text-align: center;
 }
-.interest *{
+.projects-list *{
     margin: 0;
 }
-.interest h3{
+.projects-list h3{
     font-size: 3rem;
 }
-.skillIteams{
+.projectsIteams{
     grid-area: iteams;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -92,13 +92,13 @@
     grid-row: 3;
 }
 @media only screen and (max-width: 850px) {
-    .skills .wrap{
+    .projects .wrap{
         padding: 0 20px;
     }
-    .skills .wrap > p{
+    .projects .wrap > p{
         width: 100%;
     }
-    .interest{
+    .projects-list{
         width: 90%;
     }
     .iteamCircle{
@@ -107,14 +107,14 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    .skills .wrap{
+    .projects .wrap{
         grid-template-areas: 'text' 'iteams' 'interest';
     }
-    .interest{
+    .projects-list{
         margin: 20px auto;
         width: 75%;
     }
-    .skillIteams{
+    .projectsIteams{
         grid-template-areas: 'iteam4 . iteam5 . iteam3'
         '. iteam1 . iteam2 .';
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -153,5 +153,27 @@
 @media only screen and (max-width: 375px) {
     .iteam p{
         font-size: 0.8rem;
+    }
+}
+
+.projects .socials{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+@media only screen and (max-width: 600px) {
+    .contact h3{
+        width: 80%;
+    }
+    .projects .socials{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .contact h3{
+        width: 90%;
+    }
+    .projects .socials{
+        width: 40%;
     }
 }
